@@ -19,7 +19,7 @@
 @font-face{font-family:Archivo;src:url(fonts/archivo-pl.woff2) format("woff2");font-weight:400 700;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 @font-face{font-family:"Saira fb";src:local("Arial Bold"),local("Arial-BoldMT"),local("Arial");size-adjust:98%;ascent-override:115.8%;descent-override:44.8%;line-gap-override:0%}
 @font-face{font-family:"Archivo fb";src:local("Arial");size-adjust:104%;ascent-override:90%}
-:root{--red:#DD2B1B;--red2:#C4231A;--ink:#151515;--mut:#4E535B;--g:#EEF0F2;--line:#D9DCE1;--hh:72px;--w:min(92vw,1720px)}
+:root{--red:#DD2B1B;--red2:#C4231A;--ink:#151515;--mut:#4E535B;--g:#EEF0F2;--line:#D9DCE1;--hh:78px;--w:min(92vw,1720px)}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
 body{margin:0;font-family:Archivo,"Archivo fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16px,.3vw + 14.8px,19px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
@@ -42,7 +42,7 @@ p{margin:0}
 .top{position:fixed;inset:0 0 auto;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid var(--line)}
 .top .wrap{height:100%;display:flex;align-items:center;gap:24px}
 .logo{display:block;flex:none}
-.logo img{height:50px;width:auto}
+.logo img{height:58px;width:auto}
 .menu{display:flex;gap:clamp(18px,2vw,40px);margin-left:auto;align-items:center}
 .menu a{text-decoration:none;font-weight:600;font-size:16px;color:var(--ink);padding:6px 0;border-bottom:3px solid transparent}
 .menu a:hover{color:var(--red2)}
@@ -167,7 +167,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
 .wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
 .wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
 @media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
-@media (min-width:1800px){:root{--hh:84px}.logo img{height:60px}.menu a{font-size:18px}.top .tel{font-size:21px}.top .btn{min-height:52px;font-size:18px}.tor{grid-auto-columns:calc((100% - 5*var(--gp))/6)}}
+@media (min-width:1800px){:root{--hh:88px}.logo img{height:66px}.menu a{font-size:18px}.top .tel{font-size:21px}.top .btn{min-height:52px;font-size:18px}.tor{grid-auto-columns:calc((100% - 5*var(--gp))/6)}}
 @media (max-width:1799px) and (min-width:1180px){.tor{grid-auto-columns:calc((100% - 3*var(--gp))/4)}}
 @media (max-width:1179px) and (min-width:761px){.tor{grid-auto-columns:calc((100% - 2*var(--gp))/3)}.of{grid-template-columns:1fr 1fr}.hero .txt{max-width:70vw}}
 @media (max-width:1100px){.menu,.top .tel{display:none}
@@ -181,7 +181,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
 .top .btn{display:none}
 .cz,.fm,.kt{grid-template-columns:1fr}}
 @media (max-width:760px){:root{--hh:62px}
-.logo img{height:40px}
+.logo img{height:46px}
 .hero{min-height:calc(100svh - var(--hh));align-items:flex-end}
 .hero picture img{object-position:50% 30%}
 .hero::before{background:linear-gradient(0deg,rgba(12,12,12,.95) 0,rgba(12,12,12,.86) 44%,rgba(12,12,12,.3) 70%,rgba(12,12,12,0) 88%)}
